@@ -18,7 +18,7 @@ import java.util.Map;
  * @Date: 2020/10/13 16:58
  */
 @Configuration
-@MapperScan("com.gree.post.mapper")
+@MapperScan("com.example.mybatisplus02.mapper")
 public class MybatisPlusConfig {
     public static ThreadLocal<String> SYS_TYPE = new ThreadLocal<String>();//租户信息
 

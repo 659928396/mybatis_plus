@@ -41,7 +41,7 @@ public class MybatisPlusAutoGenerate {
         // Step3：数据源配置（需要修改）
         DataSourceConfig dsc = new DataSourceConfig();
         // 配置数据库 url 地址
-//        dsc.setUrl("jdbc:mysql://10.2.11.114:3306/qdsrjcs?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT");
+//        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/mybatis_plus02?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT");
         dsc.setUrl("jdbc:mysql://127.0.0.1:3306/mybatis_plus?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT");
         // dsc.setSchemaName("testMyBatisPlus"); // 可以直接在 url 中指定数据库名
         // 配置数据库驱动
@@ -49,7 +49,7 @@ public class MybatisPlusAutoGenerate {
         // 配置数据库连接用户名
         dsc.setUsername("root");
         // 配置数据库连接密码
-        dsc.setPassword("");
+        dsc.setPassword("123");
         mpg.setDataSource(dsc);
 
         // Step:4：包配置
@@ -59,9 +59,9 @@ public class MybatisPlusAutoGenerate {
         // 配置模块名（需要修改）
         pc.setModuleName("mybatisplus02");
         // 配置 entity 包名
-        pc.setEntity("domain.entity.qdsbase");
+        pc.setEntity("domain.entity");
         // 配置 mapper 包名
-        pc.setMapper("mapper.qdsbase");
+        pc.setMapper("mapper");
         // 配置 service 包名
         pc.setService("service");
         // 配置 controller 包名
@@ -71,7 +71,7 @@ public class MybatisPlusAutoGenerate {
         // Step5：策略配置（数据库表配置）
         StrategyConfig strategy = new StrategyConfig();
         // 指定表名（可以同时操作多个表，使用 , 隔开）（需要修改）
-        strategy.setInclude("common_post");
+        strategy.setInclude("user");
         // 配置数据表与实体类名之间映射的策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
         // 配置数据表的字段与实体类的属性名之间映射的策略

@@ -1,7 +1,8 @@
 package com.example.mybatisplus02.service.impl;
 
-import com.example.mybatisplus02.domain.entity.qdsbase.CommonPost;
-import com.example.mybatisplus02.mapper.qdsbase.CommonPostMapper;
+import com.baomidou.dynamic.datasource.annotation.DS;
+import com.example.mybatisplus02.domain.entity.CommonPost;
+import com.example.mybatisplus02.mapper.CommonPostMapper;
 import com.example.mybatisplus02.service.CommonPostService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-10-21
  */
 @Service
+@DS("mybatis_plus02")
 public class CommonPostServiceImpl extends ServiceImpl<CommonPostMapper, CommonPost> implements CommonPostService {
 
 }

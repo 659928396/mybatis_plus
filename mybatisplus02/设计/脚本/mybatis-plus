@@ -1,0 +1,98 @@
+CREATE DATABASE `mybatis_plus` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+CREATE TABLE `user` (
+  `id` bigint NOT NULL COMMENT '主键ID',
+  `name` varchar(30) DEFAULT NULL COMMENT '姓名',
+  `age` int DEFAULT NULL COMMENT '年龄',
+  `email` varchar(50) DEFAULT NULL COMMENT '邮箱',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('1', 'Jone', '18', 'test1@baomidou.com');
+INSERT INTO `user` VALUES ('2', 'Jack', '20', 'test2@baomidou.com');
+INSERT INTO `user` VALUES ('3', 'Tom', '28', 'test3@baomidou.com');
+INSERT INTO `user` VALUES ('4', 'Sandy', '21', 'test4@baomidou.com');
+INSERT INTO `user` VALUES ('5', 'Billie', '24', 'test5@baomidou.com');
+
+CREATE DATABASE `mybatis_plus02` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+CREATE TABLE `common_post` (
+  `gid` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `thirdTableId` varchar(50) NOT NULL COMMENT '第三方关联表主键',
+  `name` varchar(200) NOT NULL COMMENT '名称',
+  `type` varchar(50) DEFAULT NULL COMMENT '类型',
+  `labels` varchar(200) DEFAULT NULL COMMENT '作品标签',
+  `content` longtext COMMENT '作品内容',
+  `createTime` datetime DEFAULT NULL COMMENT '生成时间',
+  `createUserId` varchar(50) DEFAULT NULL COMMENT '生成用户ID',
+  `createUserName` varchar(50) DEFAULT NULL COMMENT '生成用户名',
+  `modifyTime` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `modifyUserId` varchar(50) DEFAULT NULL COMMENT '最后修改用户ID',
+  `modifyUserName` varchar(50) DEFAULT NULL COMMENT '最后修改用户名',
+  `deleteTime` varchar(50) DEFAULT NULL COMMENT '删除时间',
+  `deleteUserId` varchar(50) DEFAULT NULL COMMENT '删除用户ID',
+  `deleteUserName` varchar(50) DEFAULT NULL COMMENT '删除用户名',
+  `deleteFlag` char(1) DEFAULT '0' COMMENT '删除标识',
+  PRIMARY KEY (`gid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='通用贴吧管理';
+
+ CREATE TABLE `dfa_post`
+(
+  `gid` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `thirdTableId` varchar(50) NOT NULL COMMENT '第三方关联表主键',
+  `name` varchar(200) NOT NULL COMMENT '名称',
+  `type` varchar(50) DEFAULT NULL COMMENT '类型',
+  `labels` varchar(200) DEFAULT NULL COMMENT '作品标签',
+  `content` longtext COMMENT '作品内容',
+  `createTime` datetime DEFAULT NULL COMMENT '生成时间',
+  `createUserId` varchar(50) DEFAULT NULL COMMENT '生成用户ID',
+  `createUserName` varchar(50) DEFAULT NULL COMMENT '生成用户名',
+  `modifyTime` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `modifyUserId` varchar(50) DEFAULT NULL COMMENT '最后修改用户ID',
+  `modifyUserName` varchar(50) DEFAULT NULL COMMENT '最后修改用户名',
+  `deleteTime` varchar(50) DEFAULT NULL COMMENT '删除时间',
+  `deleteUserId` varchar(50) DEFAULT NULL COMMENT '删除用户ID',
+  `deleteUserName` varchar(50) DEFAULT NULL COMMENT '删除用户名',
+  `deleteFlag` char(1) DEFAULT '0' COMMENT '删除标识',
+  PRIMARY KEY (`gid`)
+) COMMENT='通用贴吧管理（设计全流程数字化服务平台）'
+;
+
+ CREATE TABLE `rjcs_post`
+(
+  `gid` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `thirdTableId` varchar(50) NOT NULL COMMENT '第三方关联表主键',
+  `name` varchar(200) NOT NULL COMMENT '名称',
+  `type` varchar(50) DEFAULT NULL COMMENT '类型',
+  `labels` varchar(200) DEFAULT NULL COMMENT '作品标签',
+  `content` longtext COMMENT '作品内容',
+  `createTime` datetime DEFAULT NULL COMMENT '生成时间',
+  `createUserId` varchar(50) DEFAULT NULL COMMENT '生成用户ID',
+  `createUserName` varchar(50) DEFAULT NULL COMMENT '生成用户名',
+  `modifyTime` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `modifyUserId` varchar(50) DEFAULT NULL COMMENT '最后修改用户ID',
+  `modifyUserName` varchar(50) DEFAULT NULL COMMENT '最后修改用户名',
+  `deleteTime` varchar(50) DEFAULT NULL COMMENT '删除时间',
+  `deleteUserId` varchar(50) DEFAULT NULL COMMENT '删除用户ID',
+  `deleteUserName` varchar(50) DEFAULT NULL COMMENT '删除用户名',
+  `deleteFlag` char(1) DEFAULT '0' COMMENT '删除标识',
+  PRIMARY KEY (`gid`)
+) COMMENT='通用贴吧管理（软件测试质量管理系统）'
+;
+
+INSERT INTO `dfa_post` VALUES ('1', 1, 'dfa作品1', null, '标签1;标签2', '<img src=\'http://pubimage.360doc.com/NewArticle/bgcolor.jpg\'; />', '2020-10-15 09:16:00', '0', '', '2020-10-15 09:16:01', '0', '', '', '0', '', '0');
+INSERT INTO `dfa_post` VALUES ('2', 2, 'dfa作品2', null, '标签1;标签2', '内容2', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `dfa_post` VALUES ('3', 3, 'dfa作品3', null, '标签1;标签2', '内容3', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `dfa_post` VALUES ('4', 4, 'dfa作品4', null, '标签1;标签3', '内容4', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `dfa_post` VALUES ('5', 5, 'dfa作品5', null, '标签1;标签2', '内容5', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `dfa_post` VALUES ('6', 6, 'dfa作品6', null, '标签3;标签4', '内容6', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `dfa_post` VALUES ('7', 7, 'dfa作品7', null, '标签1;标签4', '内容7', null, null, null, null, null, null, null, null, null, null);
+
+INSERT INTO `rjcs_post` VALUES ('22', '14', '学习园地、共性问题1', '01', '开发;故障', '学习园地、共性问题内容', '2020-10-20 09:17:43', '180885', '梁杰', '2020-10-20 09:17:43', '180885', '梁杰', '', '', '', '0');
+INSERT INTO `rjcs_post` VALUES ('23', '15', '学习园地、共性问题2', '01', '开发;故障', '学习园地、共性问题内容', '2020-10-20 09:31:42', '180885', '梁杰', '2020-10-20 09:31:42', '180885', '梁杰', '', '', '', '0');
+INSERT INTO `rjcs_post` VALUES ('24', '16', '学习园地、共性问题3', '02', '开发;故障', '学习园地、共性问题内容', '2020-10-20 15:48:02', '180885', '梁杰', '2020-10-20 15:48:02', '180885', '梁杰', '', '', '', '0');
+INSERT INTO `rjcs_post` VALUES ('25', '17', '学习园地、共性问题4', '02', '开发;故障', '学习园地、共性问题内容', '2020-10-20 15:48:06', '180885', '梁杰', '2020-10-20 15:48:06', '180885', '梁杰', '', '', '', '0');
+INSERT INTO `rjcs_post` VALUES ('26', '18', '学习园地、共性问题5', '02', '开发;故障', '学习园地、共性问题内容', '2020-10-20 15:48:08', '180885', '梁杰', '2020-10-20 15:48:08', '180885', '梁杰', '', '', '', '0');
