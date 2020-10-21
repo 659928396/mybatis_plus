@@ -12,7 +12,7 @@
     <artifactId>mybatisplus02</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mybatisplus02</name>
-    <description>Demo project for Spring Boot</description>
+    <description>mybatis-plus动态表名、分页、多数据源等实现demo</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

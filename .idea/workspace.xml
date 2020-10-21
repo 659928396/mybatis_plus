@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b66fe-0791-49d9-b869-18124fc7e14d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_52_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatisplus02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/Mybatisplus02Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/Mybatisplus02Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/controller/CommonPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/controller/CommonPostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/domain/entity/qdsbase/CommonPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/domain/entity/CommonPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/mapper/qdsbase/CommonPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/mapper/CommonPostMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/mapper/xml/CommonPostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/resources/mapper/CommonPostMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/service/CommonPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/service/CommonPostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/service/impl/CommonPostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/java/com/example/mybatisplus02/service/impl/CommonPostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatisplus02/src/test/java/com/example/mybatisplus02/MybatisPlusAutoGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisplus02/src/test/java/com/example/mybatisplus02/MybatisPlusAutoGenerate.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +190,7 @@
       <workItem from="1601654973105" duration="5997000" />
       <workItem from="1602487231191" duration="3261000" />
       <workItem from="1602549083460" duration="4128000" />
-      <workItem from="1603191671103" duration="16713000" />
+      <workItem from="1603191671103" duration="17682000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1601398477795</created>
@@ -236,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603241449010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mybatisplus02 second commit">
+      <created>1603261870799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603261870799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="mybatisplus02 first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatisplus02 first commit" />
+    <MESSAGE value="mybatisplus02 second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatisplus02 second commit" />
   </component>
   <component name="masterDetails">
     <states>
